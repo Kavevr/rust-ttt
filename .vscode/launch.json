@@ -1,0 +1,341 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1",
+                    "--package=rust-ttt"
+                ],
+                "filter": {
+                    "name": "1",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1",
+                    "--package=rust-ttt"
+                ],
+                "filter": {
+                    "name": "1",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '_display'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=_display",
+                    "--package=rust-ttt"
+                ],
+                "filter": {
+                    "name": "_display",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '_display'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=_display",
+                    "--package=rust-ttt"
+                ],
+                "filter": {
+                    "name": "_display",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '_libpnet_test'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=_libpnet_test",
+                    "--package=rust-ttt"
+                ],
+                "filter": {
+                    "name": "_libpnet_test",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '_libpnet_test'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=_libpnet_test",
+                    "--package=rust-ttt"
+                ],
+                "filter": {
+                    "name": "_libpnet_test",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '_trait'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=_trait",
+                    "--package=rust-ttt"
+                ],
+                "filter": {
+                    "name": "_trait",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '_trait'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=_trait",
+                    "--package=rust-ttt"
+                ],
+                "filter": {
+                    "name": "_trait",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '_trait-a'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=_trait-a",
+                    "--package=rust-ttt"
+                ],
+                "filter": {
+                    "name": "_trait-a",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '_trait-a'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=_trait-a",
+                    "--package=rust-ttt"
+                ],
+                "filter": {
+                    "name": "_trait-a",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '_trait3'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=_trait3",
+                    "--package=rust-ttt"
+                ],
+                "filter": {
+                    "name": "_trait3",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '_trait3'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=_trait3",
+                    "--package=rust-ttt"
+                ],
+                "filter": {
+                    "name": "_trait3",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '_vector'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=_vector",
+                    "--package=rust-ttt"
+                ],
+                "filter": {
+                    "name": "_vector",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '_vector'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=_vector",
+                    "--package=rust-ttt"
+                ],
+                "filter": {
+                    "name": "_vector",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '_vector1'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=_vector1",
+                    "--package=rust-ttt"
+                ],
+                "filter": {
+                    "name": "_vector1",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '_vector1'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=_vector1",
+                    "--package=rust-ttt"
+                ],
+                "filter": {
+                    "name": "_vector1",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'rust-ttt'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=rust-ttt",
+                    "--package=rust-ttt"
+                ],
+                "filter": {
+                    "name": "rust-ttt",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'rust-ttt'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=rust-ttt",
+                    "--package=rust-ttt"
+                ],
+                "filter": {
+                    "name": "rust-ttt",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
